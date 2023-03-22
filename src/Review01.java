@@ -8,7 +8,7 @@ System.out.println(price+"円の商品の税込価格は"+totalPrice+"円（消�
 }
     public static int tax(int price) {
         int taxRate = 10;
-        int taxPrice = price / taxRate;
+        int taxPrice = price/(100/taxRate);
         return taxPrice;
 }
 }
